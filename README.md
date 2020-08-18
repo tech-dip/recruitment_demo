@@ -5,17 +5,17 @@ required fields for the objects are:
 
 ### Offer:
 
-jobTitle (unique)
-startDate
-numberOfApplications
+##### jobTitle (unique)
+##### startDate
+##### numberOfApplications
 
 
 ### Application:
 
-related offer
-candidate email (unique per Offer)
-resume text
-applicationStatus (APPLIED, INVITED, REJECTED, HIRED)
+##### related offer
+##### candidate email (unique per Offer)
+##### resume text
+##### applicationStatus (APPLIED, INVITED, REJECTED, HIRED)
 
 ### Use cases
 #### ->user has to be able to create a job offer and read a single and list all offers.
@@ -23,10 +23,11 @@ applicationStatus (APPLIED, INVITED, REJECTED, HIRED)
 #### ->user has to be able to read one and list all applications per offer.
 
 
-### SPRINGBOOT 2.3.2
-### MySQL 8.0
-### MAVEN
-### JAVA 8
+## Technologies used
+###### SPRINGBOOT 2.3.2
+##### MySQL 8.0
+##### MAVEN
+##### JAVA 8
 
 
 
