@@ -1,6 +1,4 @@
 package com.quovantis.recruitment_demo.persistence.model;
-
-import com.sun.javafx.geom.transform.Identity;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.annotation.CreatedDate;
